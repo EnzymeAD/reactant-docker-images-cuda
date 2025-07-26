@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM docker.io/nvidia/cuda:12.9.1-devel-ubuntu24.04
+FROM docker.io/nvidia/cuda:12.9.1-runtime-ubuntu24.04
 
 # Install packages
 RUN /bin/sh -c 'export DEBIAN_FRONTEND=noninteractive \
